@@ -32,6 +32,9 @@ programs. We will come back to the difference between kernel mode and user
 mode repeatedly throughout this book. It plays a crucial role in how operating systems
 work.
 
+<img width="408" alt="figure 1 1" src="https://user-images.githubusercontent.com/74997946/189487967-e4f6e685-40d4-4cbb-ba1e-b71c6bf6682d.png">
+
+
 The user interface program, shell or GUI, is the lowest level of user-mode software,
 and allows the user to start other programs, such as a Web browser, email
 reader, or music player. These programs, too, make heavy use of the operating system.
@@ -132,6 +135,9 @@ care) how much trouble they are causing for the software. One of the major tasks
 of the operating system is to hide the hardware and present programs (and their
 programmers) with nice, clean, elegant, consistent, abstractions to work with instead.
 Operating systems turn the ugly into the beautiful, as shown in Fig. 1-2.
+
+<img width="447" alt="figure 1 2" src="https://user-images.githubusercontent.com/74997946/189487974-dd1c34de-279e-4a5e-9c1e-85a63362ceef.png">
+
 It should be noted that the operating system’s real customers are the application
 programs (via the application programmers, of course). They are the ones
 who deal directly with the operating system and its abstractions. In contrast, end
